@@ -196,7 +196,7 @@ bindsym $mod+Up exec "autorandr --change home-dock"
 bindsym $mod+Down exec "autorandr --change laptop"
 
 # Wallpaper
-exec --no-startup-id feh --bg-fill ~/System Images/screensaver.jpg
+exec --no-startup-id feh --bg-fill ~/System\ Images/screensaver.jpg
 
 # Open Emacs without the annoying warning
 bindsym $mod+e exec "emacs-lucid"
@@ -223,7 +223,7 @@ mode "power" {
      bindsym s exec systemctl suspend, mode "default"
      bindsym r exec systemctl reboot, mode "default"
      bindsym o exec systemctl poweroff, mode "default"
-     bindsym l exec i3lock -t -i ~/System Images/screensaver-squamish.png -c 000000, mode "default"
+     bindsym l exec i3lock -t -i ~/System\ Images/screensaver-squamish.png -c 000000, mode "default"
 
      bindsym Escape mode "default"
 }
